@@ -46,20 +46,20 @@ public class SellerNewView {
      */         
     public void view() {
         // set up components
-        nameField = new JTextField(20);
+        nameField = new JTextField(17);
         nameLabel = new JLabel("Item Name:");
-        descriptionArea = new JTextArea(5, 20);
+        descriptionArea = new JTextArea(5, 17);
         descriptionArea.setBorder(BorderFactory.createCompoundBorder(border,
             BorderFactory.createEmptyBorder(0, 0, 0, 0)));
         descriptionArea.setLineWrap(true);
         descriptionArea.setWrapStyleWord(true);
         descriptionPane = new JScrollPane(descriptionArea);        
         descriptionLabel = new JLabel("Item Description:");
-        priceField = new JTextField(20);
+        priceField = new JTextField(17);
         priceLabel = new JLabel("Item Price:");   
-        quantityField = new JTextField(20);
+        quantityField = new JTextField(17);
         quantityLabel = new JLabel("Item Quantity:");  
-        discountField = new JTextField(20);
+        discountField = new JTextField(17);
         discountLabel = new JLabel("Discount:");  
 
         validLabel = new JLabel("");

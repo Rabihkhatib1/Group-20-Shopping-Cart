@@ -30,9 +30,9 @@ public class SignupView{
      */      
     public void view() {
         // set up components
-        userName = new JTextField(30);
-        pwd = new JPasswordField(30);
-        pwdConfirm = new JPasswordField(30);
+        userName = new JTextField(25);
+        pwd = new JPasswordField(25);
+        pwdConfirm = new JPasswordField(25);
         userNameLabel = new JLabel("Choose UserName");
         pwdLabel = new JLabel("Choose Password");
         pwdConfirmLabel = new JLabel("Confirm Password");

@@ -52,13 +52,13 @@ public class CardView {
     public void view() {
         // set up components
         formatter = new SimpleFormatter();
-        checkoutCart = new JTextArea(10, 18);
+        checkoutCart = new JTextArea(10, 16);
         checkoutCart.setEditable(false);
         checkoutCart.setText(this.invoice.format(formatter));
 
-        numberField = new JTextField(20);
+        numberField = new JTextField(17);
         numberLabel = new JLabel("Card Number:");
-        nameField = new JTextField(20);
+        nameField = new JTextField(17);
         nameLabel = new JLabel("Card Name:");
         dateField = new JTextField(5);
         dateLabel = new JLabel("Date:");

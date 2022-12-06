@@ -62,8 +62,8 @@ public class SellerBundleView {
             }
         }
         
-        combo.setPreferredSize(new Dimension(180, 20));
-        bundleArea = new JTextArea(7, 20);
+        combo.setPreferredSize(new Dimension(160, 20));
+        bundleArea = new JTextArea(7, 17);
         bundleArea.setLineWrap(true);
         bundleArea.setWrapStyleWord(true);
         bundleArea.setEditable(false);
@@ -71,9 +71,9 @@ public class SellerBundleView {
             BorderFactory.createEmptyBorder(0, 0, 0, 0)));
         bundlePane = new JScrollPane(bundleArea);  
         bundleLabel = new JLabel("Items to Bundle:");
-        quantityField = new JTextField(20);
+        quantityField = new JTextField(17);
         quantityLabel = new JLabel("Item Quantity:");  
-        discountField = new JTextField(20);
+        discountField = new JTextField(17);
         discountLabel = new JLabel("Discount:");  
         validLabel = new JLabel("");
         backButton = new JButton("Back");
