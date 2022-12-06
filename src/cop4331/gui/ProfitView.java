@@ -28,7 +28,7 @@ public class ProfitView {
     public ProfitView(Profit profit) {
         // set up components
         formatter = new ProfitFormatter();
-        profitText = new JTextArea(10, 20);
+        profitText = new JTextArea(10, 17);
         profitText.setText(profit.format(formatter));
         profitText.setEditable(false);
 
