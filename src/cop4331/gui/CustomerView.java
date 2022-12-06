@@ -55,7 +55,7 @@ public class CustomerView {
         removeButton = new JButton("Remove");
         infoButton = new JButton("Info");
         checkoutButton = new JButton("Pay");
-        logout = new JButton("log out");
+        logout = new JButton("Log Out");
         
 //      Put the combo box and the add button into a panel
         panel = new JPanel();

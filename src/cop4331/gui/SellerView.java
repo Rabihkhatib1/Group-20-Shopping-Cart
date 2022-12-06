@@ -55,8 +55,8 @@ public class SellerView {
         newButton = new JButton("New");
         removeButton = new JButton("Remove");
         bundleButton = new JButton("Bundle");
-        profitButton = new JButton("profit");
-        logout = new JButton("log out");
+        profitButton = new JButton("Profit");
+        logout = new JButton("Log Out");
         
         // Put the combo box and the add button into a panel
         panel = new JPanel();        

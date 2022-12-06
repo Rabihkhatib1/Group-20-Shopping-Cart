@@ -45,8 +45,8 @@ public class LoginView{
         bg.add(customer);
         bg.add(seller);
         customer.setSelected(true);
-        userName = new JTextField(22);
-        pwd = new JPasswordField(22);
+        userName = new JTextField(17);
+        pwd = new JPasswordField(17);
         userNameLabel = new JLabel("UserName");
         pwdLabel = new JLabel("Password");
         signupButton = new JButton("Create Account");
