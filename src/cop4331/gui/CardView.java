@@ -70,7 +70,7 @@ public class CardView {
         payButton = new JButton("Pay");
 
         frame = new JFrame("Cart Checkout");
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         frame.setSize(new Dimension(210, 400));
         frame.setResizable(false);
         frame.setLayout(new FlowLayout());

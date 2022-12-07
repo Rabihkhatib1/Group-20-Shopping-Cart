@@ -62,8 +62,8 @@ public class CustomerController {
         cardview = new CardView(invoice);
         
         customer.getCheckout().addActionListener(e -> {
-            new CardController(cardview,invoice);
-            cardview.getFrame().addWindowListener(new WindowAdapter() {
+        new CardController(cardview,invoice);
+            cardview.getFrame().addWindowListener(new WindowAdapter() { 
             @Override
             public void windowClosed(WindowEvent e) {
                 invoice.reset();

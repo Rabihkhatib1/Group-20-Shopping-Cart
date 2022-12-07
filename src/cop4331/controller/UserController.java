@@ -4,7 +4,7 @@ import cop4331.gui.LoginView;
 import cop4331.gui.SignupView;
 
 import cop4331.application.User;
-import cop4331.application.Data;
+import cop4331.application.Inventory;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -14,7 +14,7 @@ import java.awt.event.ActionListener;
  * @author Rabih
  */
 public class UserController {
-    private final Data data;
+    private final Inventory data;
     private final SignupView signup;
     private final LoginView login;
     
@@ -24,7 +24,7 @@ public class UserController {
     public UserController() {
         this.login = new LoginView();
         this.signup = new SignupView();
-        this.data = new Data();
+        this.data = new Inventory();
     }
 
     /**

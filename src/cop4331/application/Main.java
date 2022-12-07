@@ -9,7 +9,7 @@ import cop4331.controller.UserController;
 public class Main {
 
     public static void main(String[] args) {
-        new Data().init();
+        new Inventory().init();
         User.getInstance().userDataInit();
         new UserController().initLogin();
    }

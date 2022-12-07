@@ -56,11 +56,11 @@ public class User {
                     fw.write("Solan,Degefa");
                     fw.newLine();                  
                 } catch (IOException e) {
-                    Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, e);
+                    Logger.getLogger(Inventory.class.getName()).log(Level.SEVERE, null, e);
                 }
             }
         } catch (IOException e) {
-            Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, e);
+            Logger.getLogger(Inventory.class.getName()).log(Level.SEVERE, null, e);
         }            
     }  
 
@@ -80,7 +80,7 @@ public class User {
             }  
             br.close();
         } catch (IOException e) {  
-            Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, e);
+            Logger.getLogger(Inventory.class.getName()).log(Level.SEVERE, null, e);
         }           
     }
 
@@ -97,7 +97,7 @@ public class User {
             }
             fw.close();
         } catch (IOException e) {
-            Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, e);
+            Logger.getLogger(Inventory.class.getName()).log(Level.SEVERE, null, e);
         }
     } 
 

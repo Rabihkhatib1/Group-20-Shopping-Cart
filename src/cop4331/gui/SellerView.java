@@ -86,16 +86,6 @@ public class SellerView {
         frame.setVisible(true);
     }
 
-    public void updatePanel(DefaultListModel dlm) {
-        this.plist = dlm;
-        list = new JList(plist);
-        listScrollPane = new JScrollPane(list);
-        frame.dispose();
-        view();
-        panel.revalidate();
-        panel.repaint();
-        
-    }
     public InvoiceFormatter getFormatter() { return formatter; }             
     public JTextArea getTextArea() { return textArea; }        
     public JPanel getPanel() { return panel; }      

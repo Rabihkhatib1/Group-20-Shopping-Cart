@@ -9,7 +9,7 @@ import cop4331.gui.SellerNewView;
 import cop4331.gui.SellerView;
 
 import cop4331.application.Profit;
-import cop4331.application.Data;
+import cop4331.application.Inventory;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -30,7 +30,7 @@ public class SellerController
     private final SellerNewView sellerNew;
     private final SellerBundleView sellerBundle;
 
-    private final Data data;
+    private final Inventory data;
     private final DefaultListModel dlm;
     private final SellerBundle sb;
 
@@ -42,7 +42,7 @@ public class SellerController
         this.sellerView = new SellerView(dlm);
         this.sellerNew = new SellerNewView();
         this.sellerBundle = new SellerBundleView();
-        this.data = new Data();
+        this.data = new Inventory();
         this.dlm = dlm;
         this.sb = new SellerBundle();
     }

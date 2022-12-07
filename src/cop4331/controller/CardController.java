@@ -5,7 +5,7 @@ import cop4331.gui.CardView;
 import cop4331.model.Invoice;
 
 import cop4331.application.Profit;
-import cop4331.application.Data;
+import cop4331.application.Inventory;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
  * @author Rabih
  */
 public class CardController {
-    private Data data;
+    private Inventory data;
     private final CardView cardview;
     private final Invoice invoice;
 
@@ -38,7 +38,7 @@ public class CardController {
     private void initCardController() {
         cardview.view();
         cardview.getPayButton().addActionListener(new VerifyListener());        
-        cardview.getBackButton().addActionListener(e -> cardview.getFrame().dispose());
+        cardview.getBackButton().addActionListener(e -> cardview.getFrame().hide());
     }
 
     /**
@@ -106,8 +106,7 @@ public class CardController {
             }
             else {
                 cardview.getFrame().dispose();
-                
-                data = new Data();
+                data = new Inventory();
                 data.dataUpdateStock(invoice);
                 Profit.getInstance().addRevenue(cardview);
                 
