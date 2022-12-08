@@ -37,15 +37,15 @@ After making a payment, the revenue is updated.
 
 Seller:
 - Create a new item
-    *Price field must be number, quantity must be integer, discount must be number between 0 and less than 100 (percentage).
-    *If discount is 0, new item is considered a Product. Otherwise it is a DiscountedItem.
-    *If the new item is an item that already exists in the inventory, that item's data will be update and no new item is created.
-    *Costs are updated after new item is added.
+    - Price field must be number, quantity must be integer, discount must be number between 0 and less than 100 (percentage).
+    - If discount is 0, new item is considered a Product. Otherwise it is a DiscountedItem.
+    - If the new item is an item that already exists in the inventory, that item's data will be update and no new item is created.
+    - Costs are updated after new item is added.
 - Create a new bundle
-    *items can be added to the bundle using the dropdown combobox. Must specify quantity and discount.
-    *Costs are updated after new bundle is added.
+    - items can be added to the bundle using the dropdown combobox. Must specify quantity and discount.
+    - Costs are updated after new bundle is added.
 - Remove item from inventory
-    *If an item that is a part of a bundle or several bundles is removed, those bundles are also recursively removed.
+    - If an item that is a part of a bundle or several bundles is removed, those bundles are also recursively removed.
 - Check profit, revenue and costs using the "Profits" button.
 
 Customer and Seller can log out at any item and get sent back to login page.
