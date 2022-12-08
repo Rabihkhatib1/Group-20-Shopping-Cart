@@ -71,7 +71,7 @@ public class CardView {
 
         frame = new JFrame("Cart Checkout");
         frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-        frame.setSize(new Dimension(210, 400));
+        frame.setSize(new Dimension(210, 420));
         frame.setResizable(false);
         frame.setLayout(new FlowLayout());
         frame.add(new JScrollPane(checkoutCart),BorderLayout.CENTER);
