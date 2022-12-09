@@ -1,0 +1,7 @@
+0,Strawberry Ice Cream,Delicious strawberry flavored ice cream.,5,1.99,0
+1,Hammer,Hammer to smash things.,5,19.95,0
+2,Television,30 inch widescreen TV.,5,159.95,0
+3,Assorted Nails,20 Assorted Nails ideal for construction.,10,9.95,0
+4,Milk,3.78L far free milk.,10,5.99,0
+5,Water Bottle,reusable water bottle for children.,5,19.95,20
+6,Bundle,10,17,Hammer,Assorted Nails,Water Bottle
