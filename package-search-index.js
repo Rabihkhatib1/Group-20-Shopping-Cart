@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"cop4331.application"},{"l":"cop4331.controller"},{"l":"cop4331.formatter"},{"l":"cop4331.gui"},{"l":"cop4331.model"}];updateSearchResults();
