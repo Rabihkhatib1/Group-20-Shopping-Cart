@@ -28,7 +28,7 @@ public class SimpleFormatter implements InvoiceFormatter<LineItem>
    {
       return (String.format("\n\nTOTAL DUE: $%.2f\n", total));
    }
-   
+
    @Override
    public double getTotal() {return total;}
 

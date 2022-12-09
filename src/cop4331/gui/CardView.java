@@ -18,7 +18,7 @@ import javax.swing.JTextField;
 
 /**
  * Credit Card UI view. 
- * @author Rabih
+ * @author Solan
  */
 public class CardView {
     

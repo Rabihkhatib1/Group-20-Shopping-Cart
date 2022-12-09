@@ -118,12 +118,11 @@ public class Profit {
     
     public String format(ProfitFormatter formatter) {
         String r = formatter.formatHeader();
-        r += formatter.formatLineItem(new Profit());
+        r += formatter.formatLineItem(Profit.getInstance());
         return r + formatter.formatFooter();
     }
     
     public double getRevenue() {extractRevenueCost(); return revenue;}
     public double getCosts() {extractRevenueCost(); return costs;}
-    public double setCosts() {extractRevenueCost(); return costs;}
     public double getProfit() {extractRevenueCost(); return this.revenue - this.costs;}  
 }

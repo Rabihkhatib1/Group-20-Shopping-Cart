@@ -17,12 +17,11 @@ public class ProfitFormatter implements InvoiceFormatter<Profit>
     @Override
     public String formatLineItem(Profit profit)
     {
-        profitValue = profit.getProfit();
+        profitValue = Profit.getInstance().getProfit();
         return (String.format(
-            "Revenue: $%.2f\nCosts: $%.2f\n",profit.getRevenue(),profit.getCosts()));
-        
+            "Revenue: $%.2f\nCosts: $%.2f\n",Profit.getInstance().getRevenue(),Profit.getInstance().getCosts()));        
     }
-   
+
     @Override
     public String formatFooter()
     {

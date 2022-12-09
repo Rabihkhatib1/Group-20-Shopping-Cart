@@ -2,6 +2,7 @@ package cop4331.model;
 
 /**
  * A line item in an invoice.
+ * @author modified by Rabih
  */
 public interface LineItem
 {
